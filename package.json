@@ -1,0 +1,27 @@
+{
+  "name": "46465-keksogram",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Обучающий проект «keksogram» от HTML Academy",
+  "author": "Таня Прошунина",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/js-htmlacademy/46465-keksogram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/js-htmlacademy/46465-keksogram/issues"
+  },
+  "homepage": "https://github.com/js-htmlacademy/46465-keksogram",
+  "devDependencies": {
+    "eslint": "1.5.1",
+    "http-server": "^0.8.5"
+  },
+  "scripts": {
+    "gosha": "make",
+    "test": "eslint js/",
+    "start": "node node_modules/.bin/http-server"
+  },
+  "engines": {
+    "node": "^0.12.7"
+  }
+}
